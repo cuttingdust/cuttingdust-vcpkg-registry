@@ -1,0 +1,19 @@
+{
+	"name": "mlog",
+	"version": "0.1.0",
+	"description": "Cross-platform logging wrapper based on spdlog",
+	"homepage": "https://github.com/cuttingdust/api_mlog",
+	"license": "MIT",
+	"supports": "!(uwp)",
+	"dependencies": [
+		"spdlog",
+		{
+			"name": "vcpkg-cmake",
+			"host": true
+		},
+		{
+			"name": "vcpkg-cmake-config",
+			"host": true
+		}
+	]
+}

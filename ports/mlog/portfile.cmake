@@ -5,7 +5,7 @@ else()
 	vcpkg_from_git(
 		OUT_SOURCE_PATH SOURCE_PATH
 		URL https://github.com/cuttingdust/api_mlog.git
-		REF af45b6abd4dd68c265d4250da63a5ae79f8b19ce
+		REF 48cabd50b13f5e89564e39996c9a9f0cf69469aa
 	)
 endif()
 
